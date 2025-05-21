@@ -16,6 +16,8 @@ We have a class called `Cache`.
 * `hits` and `misses`: Integer counters to track how many times elements were successfully or unsuccessfully retrieved.
 * `detailedLogging`: A boolean (default is `false`). When enabled, it tracks how many times each key has been accessed and the timestamp of the last access.
 
+'nologging': boolean if you want metrics 
+
 ---
 
 We also have a class called `CacheElement`.
